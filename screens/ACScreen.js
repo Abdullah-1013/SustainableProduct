@@ -10,7 +10,7 @@ import {
 } from 'react-native';
 import { supabase } from '../services/supbaseClient';
 
-const AcScreen = ({ navigation }) => {
+const ACScreen = ({ navigation }) => {
   const [records, setRecords] = useState([]);
   const [loading, setLoading] = useState(true);
 
@@ -119,4 +119,4 @@ const styles = StyleSheet.create({
   buttonText: { color: 'white', fontWeight: 'bold' },
 });
 
-export default AcScreen;
+export default ACScreen;
